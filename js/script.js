@@ -6,3 +6,7 @@ $(document).ready(function () {
 function work() {
 	console.log('js work');
 }
+
+function parallaxEff() {
+	
+}

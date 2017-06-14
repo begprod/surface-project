@@ -1,13 +1,41 @@
+//Global elements
 html
 	box-sizing: border-box
 *,
 *::after,
 *::before
 	box-sizing: inherit
-.body
+body
 	font-family: $mainFont
 	font-size: 14px
+
+//Global classes
 .wrapper
 	width: 1590px
 	margin: 0 auto
-	border: 2px solid red
+	//border: 2px solid red
+.btn
+	display: inline-block
+	min-width: 315px
+	width: auto
+	min-height: 70px
+	height: auto
+	padding: 20px 40px 20px 25px
+	text-transform: uppercase
+	text-align: center
+	border-radius: 50px
+	background-color: $mainColor
+	box-shadow: 0 5px 10px black
+	transition: all .3s ease-in-out
+	cursor: pointer
+	&__icon
+		display: inline-block
+		vertical-align: middle
+		font-size: 40px
+		margin: 0 20px 0 0
+	&__text
+		display: inline-block
+		vertical-align: middle
+		text-align: left
+	&:hover
+		box-shadow: 0 1px 5px black

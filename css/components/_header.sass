@@ -35,9 +35,11 @@
 	&__top
 		position: relative
 		text-align: left
+		transition: all .5s ease-in-out
 		z-index: 2
 	&__bottom
 		text-align: right
+		transition: all .5s ease-in-out
 	&__sub-text
 		display: flex
 		justify-content: flex-end
@@ -51,10 +53,12 @@
 		color: $mainColor
 	&__prlx-el
 		position: absolute
-		top: -50px
+		top: 0
 		left: 35%
 		width: 6px
 		height: 320px
+		margin-top: -50px
 		transform: rotate(30deg)
+		transition: all .5s ease-in-out
 		background-color: $mainColor
 		z-index: 1

@@ -9,11 +9,19 @@ body
 	font-family: $mainFont
 	font-size: 14px
 
+
+
 //Global classes
 .wrapper
 	width: 1590px
-	margin: 0 auto
-	//border: 2px solid red
+	margin: 0 auto 0
+.head
+	margin: 0
+	text-transform: uppercase
+	&--lg
+		font-size: 90px
+	&--lightgray
+		color: $lightGray
 .btn
 	display: inline-block
 	min-width: 315px
@@ -24,9 +32,11 @@ body
 	text-transform: uppercase
 	text-align: center
 	border-radius: 50px
-	background-color: $mainColor
+	background-color: $purple
 	box-shadow: 0 5px 10px black
 	transition: all .3s ease-in-out
+	text-decoration: none
+	color: white
 	cursor: pointer
 	&__icon
 		display: inline-block

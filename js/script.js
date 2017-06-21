@@ -2,6 +2,7 @@ $(window).on('scroll', function() {
 
 	var wScroll = $(this).scrollTop();
 
+	//main screen
 	var parallaxLine = $('.maintext__prlx-line');
 	var parallaxTextEl = $('.maintext');
 	parallaxLine.css({
@@ -11,6 +12,7 @@ $(window).on('scroll', function() {
 		'margin-top': '-' + wScroll/2 + 'px'
 	});
 
+	//footballer
 	var img1 = $('.prlx-footballer').offset().top - 400;
 	$('.prlx-footballer').css({
 		'top': wScroll/20 + 'px',
@@ -20,6 +22,7 @@ $(window).on('scroll', function() {
 		'top': wScroll/20 + 'px'
 	});
 
+	//basketballer
 	var img1 = $('.prlx-basketballer').offset().top - 400;
 	$('.prlx-basketballer').css({
 		'top': wScroll/20 + 'px',
@@ -30,5 +33,14 @@ $(window).on('scroll', function() {
 	});
 	$('.prlx-basketballer .prlx-basketballer__prlx-line2').css({
 		'bottom': wScroll/20 + 'px'
+	});
+
+
+	//footer
+	$('.download-app__text-prlx-line1').css({
+		'top': '-' + wScroll/20 + 'px'
+	});
+	$('.download-app__text-prlx-line2').css({
+		'top': '-' + wScroll/20 + 'px'
 	});
 });

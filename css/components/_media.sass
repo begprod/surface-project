@@ -18,7 +18,7 @@
 		&__line
 			padding: 50px 0 30px 0
 		&__img
-			margin-left: -15%
+			margin-left: -10%
 			img
 				width: 70%
 	.prlx-footballer
@@ -26,7 +26,7 @@
 			left: 25%
 			height: 500px
 	.prlx-basketballer
-		margin-right: -55%
+		margin-right: -30%
 	.grid
 		&__unit
 			&--50
@@ -49,3 +49,47 @@
 		&__info
 			order: 1
 			padding: 80px 50px
+
+@media screen and (max-width: $break-md)
+	.wrapper
+		width: 760px
+	.maintext
+		.wrapper
+			width: 500px
+		&__bottom
+			text-align: left
+		&__sub-text
+			justify-content: space-around
+			margin-top: 50px
+		&__sub-text-el
+			margin-left: 0
+	.paralax-section
+		&__line
+			padding: 50px 0 30px 30px
+	.prlx-basketballer
+		margin-right: -60%
+	.download-app
+		.wrapper
+			flex-direction: column
+		&__text-wrapper
+			margin-top: 30px
+		&__text
+			flex-direction: column
+		&__main-text
+			font-size: 75px
+			text-align: center
+		&__text-prlx-line1
+			margin-top: 0
+		&__text-prlx-line2
+			right: 35%
+			margin-top: -100px
+	.footer
+		justify-content: center
+		&__unit
+			&:first-child
+				display: none
+			&:last-child
+				display: none
+	.social-links
+		&__unit
+			font-size: 30px

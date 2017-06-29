@@ -93,3 +93,146 @@
 	.social-links
 		&__unit
 			font-size: 30px
+
+@media screen and (max-width: $break-sm)
+	.wrapper
+		width: 320px
+	.btn
+		min-width: 145px
+		min-height: 50px
+		padding: 10px 
+		font-size: 11px
+		&__icon
+			margin: 0 10px 0 0
+			font-size: 20px
+	.head--lg
+		font-size: 40px
+	.hero
+		height: 700px
+		&__btns
+			.btn
+				&:first-child
+					margin-right: 0
+	.header
+		.wrapper
+			justify-content: center
+		&__slogan
+			display: none
+	.maintext
+		font-size: 30px
+		.wrapper
+			width: 300px
+		&__top
+			margin-bottom: 20px
+			text-align: left
+			font-size: 30px
+		&__bottom
+			text-align: right
+		&__sub-text
+			flex-wrap: wrap
+			margin-top: 70px
+		&__sub-text-el
+			margin-bottom: 15px
+		&__prlx-line
+			left: 50%
+	.paralax-section
+		.head
+			margin-bottom: 350px
+		&__line
+			padding-left: 15px
+		&__img
+			position: absolute
+			left: 0
+			right: 0
+			top: 12%
+			margin: 0 auto
+			text-align: center
+			&--left
+				//top: 0
+				left: 0
+			img
+				width: 180px
+		&__wrapper
+			width: 100%
+			&--right
+				float: none
+		.prlx-footballer
+			&__prlx-line
+				width: 4px
+				height: 300px
+				top: 30px
+				left: 45%
+			&:after
+				left: 15%
+		.prlx-basketballer
+			&__prlx-line1
+				width: 4px
+				height: 200px
+				top: 60px
+				right: 20%
+			&__prlx-line2
+				width: 4px
+				height: 200px
+			img
+				width: 320px
+	.b-list
+		&__head
+			display: flex
+			flex-direction: row
+			flex-wrap: nowrap
+			justify-content: flex-start
+			align-items: center
+			font-size: 25px
+		&__num
+			margin-right: 15px
+		&__text
+			font-size: 16px
+	.steps
+		&__row
+			min-height: 300px
+		&__img
+			min-height: 300px
+		&__info
+			align-items: flex-start
+			padding: 50px 30px
+		&__num
+			top: 43%
+			width: 85px
+			height: 85px
+			font-size: 18px
+			&:after
+				width: 25px
+		&__text
+			margin-top: 20px
+			font-size: 16px
+			&:after
+				margin-top: 20px
+	.download-app
+		.wrapper
+			min-height: 690px
+		&__icon
+			width: 70px
+			margin: 0
+			img
+				width: 100%
+		&__main-text
+			font-size: 30px
+		&__sub-text
+			font-size: 14px
+		&__btns
+			.btn
+				&:first-child
+					margin: 0
+		&__text-prlx-line1
+			width: 4px
+			height: 80px
+		&__text-prlx-line2
+			width: 4px
+			height: 150px
+			margin-top: -50px
+	.footer
+		min-height: 60px
+		margin-top: -60px
+	.social-links
+		&__unit
+			font-size: 18px
